@@ -10,17 +10,17 @@ A comprehensive implementation and comparative study of the two fundamental grap
 ## 📖 Overview
 Graph traversal is the process of visiting every vertex in a graph exactly once. This repository breaks down the two most common methods for traversing non-linear data structures.
 
-### 🔍 [01. Breadth-First Search (BFS)](./01.Breadth_First_Search/)
+### 🔍 [01. Breadth-First Search (BFS)](https://github.com/Aaron-Garvin/Graph-Traversal-Algorithms-DFS-and-BFS/tree/main/01.%20Breadth_First_Search)
 * **Strategy:** Explore the neighbor nodes first, before moving to the next level neighbors.
 * **Analogy:** Like ripples in a pond spreading outward.
 * **Core Logic:** Uses a **Queue (FIFO)** data structure.
 * **Best For:** Finding the shortest path in unweighted graphs.
 
-### 🌲 [02. Depth-First Search (DFS)](./02.Depth_First_Search/)
+### 🌲 [02. Depth-First Search (DFS)](https://github.com/Aaron-Garvin/Graph-Traversal-Algorithms-DFS-and-BFS/tree/main/02.%20Depth_First_Search)
 * **Strategy:** Explore as far as possible along each branch before backtracking.
 * **Analogy:** Like exploring a maze by following one path until you hit a wall.
-* **Core Logic:** Uses a **Stack (LIFO)**, typically via recursion.
-* **Best For:** Cycle detection, pathfinding, and topological sorting.
+* **Core Logic:** Uses a **Stack (LIFO)** (Recursion).
+* **Best For:** Cycle detection and pathfinding.
 
 ---
 
